@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+ margin: 10px;
+ padding: 0;
+ background-color: rgb(164, 108, 216);
+}
+nav .contactus {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-decoration: underline;
+    border-radius: 2.5px;
+}
+
+
+
+/*.leftSection {
+    display: flex;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+*/
+.leftSection {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact {
+    margin-left: 40px;
+    margin-top: 80px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+
+}
+  
+  
+.rightsection {
+    display: flex;
+    border-radius: 2px;
+    width: 50%;
+    max-height: fit-content;
+}
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.contact-form h2 {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    margin-left:60%;
+
+}
+  .contact-form input, 
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60%;
+    border: 1px solid #121212;
+    border-radius: 4px;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+  }
+  .contact-form h2{
+    color: #121212;
+  }
+  .contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-left: 60%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #26bd1e;
+  }
+.footer {
+
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 2.5px;
+}
+@media screen and (max-width: 768px) {
+    .rightsection {
+      text-align: center;
+    }
+  
+    .contact-form {
+      max-width: 100%;
+    }
+  }
+  
